@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>To Do List Arno</title>
+   
+</head>
+<body>
+    <div>
+        <h2>To Do List Arno</h2>
+    </div>
+    <form>
+        <input type="text" id="myInput" placeholder="Schrijf hier je taak">  
+        <span onclick="newElement()" class="addBtn">Voeg taak toe</span>
+    </form>
+    <ul id="ul">
+        <li class="li"><input type="checkbox" id="checkBox" checked> Project W3D5 afmaken </li>
+        <button type="button" onclick="verwijder()">Taak verwijderen</button>
+    </ul>
+    <div id="dataEndpoint"></div>
+    <script src="api-client.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

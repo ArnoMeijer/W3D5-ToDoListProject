@@ -1,0 +1,12 @@
+body {
+    background-color: paleturquoise;
+}
+.addBtn {
+  padding: 7px;
+  width: 25%;
+  background-color: peru;
+  color:black;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  }
